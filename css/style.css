@@ -1,0 +1,226 @@
+h1{
+    font-size: 45pt;
+    color: #877028;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+   text-transform: uppercase;
+   background-image: linear-gradient(
+    -225deg,
+    #877028 20%,
+    #44107a 30%,
+    #877028 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-decoration-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+      font-size: 45pt;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+h2{
+    font-size: 24pt;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+    padding:25px;
+}
+
+.hero{
+    height: 45vh;
+    width: 100%;
+    background-image: url(../img/aaron-otieno-HiTROlF_9kM-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.hero{
+    color: #5F5D5D;
+    font-family: 'Playfair Display', serif, bold; 
+    font-size: 16pt;
+}
+
+.faquote {
+    float: left;
+    padding:25px;
+}
+
+.intro{
+    margin-top: 2%;
+}
+
+.tagline {
+    clear:both;
+    padding:25px;
+
+}
+
+nav {
+    float: right;
+    margin-right:25px;
+}
+
+.button {
+    background-color:#212121;
+    border: 2px solid #aaa;
+    color: white;
+    padding: 5px 20px;
+    margin: 5px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding:25px;
+}
+
+a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+/* body{
+   background-color #221122
+} */
+
+section{
+    color:#877028;
+    font-size: 25pt;
+    font-family: 'Playfair Display', serif; 
+    width: 50%;
+}
+
+.about {
+    background-color: #221122;
+    border-top: 1px solid #877028;
+    padding-top:100px;
+    padding-bottom:100px;
+    display: flex;
+    width:100%;
+}
+
+.about-text {
+    border-right: 2px solid black; 
+    padding-right: 90px;
+    margin-left: 55px;
+    width:50%;
+    padding-top:35px
+}
+
+#mid-image {
+    margin-left: 90px;
+    height:540px;
+    width:400px;
+}
+
+.skills{
+    background-color: #000;
+    border-top: 1px solid #877028;
+    padding-top: 25px;
+    padding-bottom: 5%;
+    width:100%;
+ 
+}
+
+h3{
+    font-size: 24pt;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 485px;
+    padding-top: 20px;
+    
+
+}
+
+.skillsimages{
+
+    display: flexbox;
+    justify-content: space-between;
+    padding-inline: 5px;
+    margin-left: 50px;
+    
+}
+
+#skills-image2{
+    margin-left: 45px;
+}
+.case{
+    padding-top:10px;
+    padding-bottom: 10%;
+    font-weight: bolder;
+}
+.csimages {
+    display: flexbox;
+    justify-content: space-around;
+    padding-inline: 35px;
+    width:400px;
+    height: 250px;
+}
+
+footer{
+    background-color: #6D6D6A;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    text-align:center;
+}
+
+.end{
+    background-color: #212121;
+    width:100%;
+    height:250px;
+}
+.end-text{
+    color: #aaa;
+    text-align:center;
+    margin-right: 495px;
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #877028; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+/* Media Queries */
+
+@media screen and (max-width:1000px) {
+    h1{font-size: 2.4rem;}
+    .about{
+        display:flex;
+        
+        
+    }
+    
+}
+
+/* Header */
+
